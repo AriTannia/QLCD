@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0110\u1EA1i h\u1ECDc UEH\\H\u1ECDc k\u1EF3 4 UEH\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\QLCD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0B9D481-B31E-4A8C-B4E0-9166A88E041A}|WebApplication2\\Website.csproj|d:\\\u0111\u1EA1i h\u1ECDc ueh\\h\u1ECDc k\u1EF3 4 ueh\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\qlcd\\webapplication2\\helper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0B9D481-B31E-4A8C-B4E0-9166A88E041A}|WebApplication2\\Website.csproj|solutionrelative:webapplication2\\helper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0B9D481-B31E-4A8C-B4E0-9166A88E041A}|WebApplication2\\Website.csproj|D:\\\u0110\u1EA1i h\u1ECDc UEH\\H\u1ECDc k\u1EF3 4 UEH\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\QLCD\\webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0B9D481-B31E-4A8C-B4E0-9166A88E041A}|WebApplication2\\Website.csproj|solutionrelative:webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0B9D481-B31E-4A8C-B4E0-9166A88E041A}|WebApplication2\\Website.csproj|D:\\\u0110\u1EA1i h\u1ECDc UEH\\H\u1ECDc k\u1EF3 4 UEH\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\QLCD\\webapplication2\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0B9D481-B31E-4A8C-B4E0-9166A88E041A}|WebApplication2\\Website.csproj|solutionrelative:webapplication2\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc UEH\\H\u1ECDc k\u1EF3 4 UEH\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\QLCD\\WebApplication2\\Helper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Helper\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc UEH\\H\u1ECDc k\u1EF3 4 UEH\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\QLCD\\WebApplication2\\Helper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "WebApplication2\\Helper\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:04:14.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc UEH\\H\u1ECDc k\u1EF3 4 UEH\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\QLCD\\WebApplication2\\Data\\KhachHang.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Data\\KhachHang.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc UEH\\H\u1ECDc k\u1EF3 4 UEH\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\QLCD\\WebApplication2\\Data\\KhachHang.cs",
+              "RelativeToolTip": "WebApplication2\\Data\\KhachHang.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA3wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:51:03.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1EA1i h\u1ECDc UEH\\H\u1ECDc k\u1EF3 4 UEH\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\QLCD\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\\u0110\u1EA1i h\u1ECDc UEH\\H\u1ECDc k\u1EF3 4 UEH\\C\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\QLCD\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwC8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:51:03.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8195,19 +8195,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dtlam\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\WebApplication2 - ver2 - Copy\\WebApplication2\\Website.csproj",
+      "projectUniqueName": "D:\\Đại học UEH\\Học kỳ 4 UEH\\Công nghệ phần mềm\\QLCD\\WebApplication2\\Website.csproj",
       "projectName": "Website",
-      "projectPath": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\WebApplication2 - ver2 - Copy\\WebApplication2\\Website.csproj",
-      "packagesPath": "C:\\Users\\dtlam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\WebApplication2 - ver2 - Copy\\WebApplication2\\obj\\",
+      "projectPath": "D:\\Đại học UEH\\Học kỳ 4 UEH\\Công nghệ phần mềm\\QLCD\\WebApplication2\\Website.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Đại học UEH\\Học kỳ 4 UEH\\Công nghệ phần mềm\\QLCD\\WebApplication2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dtlam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8227,6 +8227,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8279,7 +8284,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
