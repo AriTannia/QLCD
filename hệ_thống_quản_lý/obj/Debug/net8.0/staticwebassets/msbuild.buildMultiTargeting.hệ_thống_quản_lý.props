@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\hệ_thống_quản_lý.props" />
+</Project>

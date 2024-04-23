@@ -1,0 +1,198 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Section start -->
+
+<div class="section">
+    <h2>Hệ thống quản lý dạng bảng</h2>
+
+    <div class="section_input">
+
+        <div class="section_input_row">
+            <p>Mã định danh cá nhân</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Ngày sinh</p>
+            <input type="date">
+        </div>
+
+        <div class="section_input_row">
+            <p>Giới tính</p>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="section_input">
+
+        <div class="section_input_row">
+            <p>Số CMND/CCCD</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Dân Tộc</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Tôn giáo</p>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="section_input">
+
+        <div class="section_input_row">
+            <p>Quốc tịch</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Tình trạng hôn nhân</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Nhóm máu</p>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="section_input">
+
+        <div class="section_input_row">
+            <p>Nơi đăng ký khai sinh</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Quê quán, nơi thường trú</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Nơi ở hiện tại</p>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="section_button">
+        <div class="section_click">
+            <button id="editButton">Chỉnh sửa</button>
+            <button id="addButton">Thêm</button>
+            <button id="deleteButton">Xóa</button>
+        </div>
+    </div>
+
+    <h2>Bảng thông báo</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Mã định danh cá nhân</th>
+                <th>Ngày sinh</th>
+                <th>Giới tính</th>
+                <th>CCCD</th>
+                <th>Dân Tộc</th>
+                <th>Tôn giáo</th>
+                <th>Quốc tịch</th>
+                <th>Tình trạng hôn nhân</th>
+                <th>Nhóm máu</th>
+                <th>Nơi đăng ký khai sinh</th>
+                <th>Quê quán, nơi thường trú</th>
+                <th>Nơi ở hiện tại</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <div class="section_button">
+        <div class="section_click">
+            <button id="sendButton">Nhập</button>
+        </div>
+        <div class="section_click">
+            <button><a asp-area="" asp-controller="Home" asp-action="managers">Managers</a></button>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="section show">
+    <h2>Bảng thông tin công dân</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Mã định danh cá nhân</th>
+                <th>Ngày sinh</th>
+                <th>Giới tính</th>
+                <th>CCCD</th>
+                <th>Dân Tộc</th>
+                <th>Tôn giáo</th>
+                <th>Quốc tịch</th>
+                <th>Tình trạng hôn nhân</th>
+                <th>Nhóm máu</th>
+                <th>Nơi đăng ký khai sinh</th>
+                <th>Quê quán, nơi thường trú</th>
+                <th>Nơi ở hiện tại</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="section_button">
+        <div class="section_click">
+            <button id="confButton">Xác nhận</button>
+        </div>
+        <div class="section_click">
+            <button id="">Quay lại</button>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Section end -->
+
