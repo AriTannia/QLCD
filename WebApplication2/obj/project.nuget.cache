@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i0dSog29t2XZ2r76z9RSRKt66HjKjXaf5enxvzXJek7XMVcl+697H6H1yZkB6heZbsqCNU/o1Rmn3wdbJG85yg==",
+  "dgSpecHash": "K64wXktzgqjgSy3PpRvTlRtwZJCkLVdzopMccpk/4AhUY383m3WwS+5HSJLD10/n+UVIHgdZpwU6PeTqCXFz1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\WebApplication2 - ver2 - Copy\\WebApplication2\\Website.csproj",
+  "projectFilePath": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\Thư mục ghép code\\Thư mục ghép - Copy\\WebApplication2\\Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dtlam\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\dtlam\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

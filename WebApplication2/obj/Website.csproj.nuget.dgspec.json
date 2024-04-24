@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\WebApplication2 - ver2 - Copy\\WebApplication2\\Website.csproj": {}
+    "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\Thư mục ghép code\\Thư mục ghép - Copy\\WebApplication2\\Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\WebApplication2 - ver2 - Copy\\WebApplication2\\Website.csproj": {
+    "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\Thư mục ghép code\\Thư mục ghép - Copy\\WebApplication2\\Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\WebApplication2 - ver2 - Copy\\WebApplication2\\Website.csproj",
+        "projectUniqueName": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\Thư mục ghép code\\Thư mục ghép - Copy\\WebApplication2\\Website.csproj",
         "projectName": "Website",
-        "projectPath": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\WebApplication2 - ver2 - Copy\\WebApplication2\\Website.csproj",
+        "projectPath": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\Thư mục ghép code\\Thư mục ghép - Copy\\WebApplication2\\Website.csproj",
         "packagesPath": "C:\\Users\\dtlam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\WebApplication2 - ver2 - Copy\\WebApplication2\\obj\\",
+        "outputPath": "C:\\Users\\dtlam\\OneDrive\\Documents\\A Code\\Thư mục ghép code\\Thư mục ghép - Copy\\WebApplication2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dtlam\\AppData\\Roaming\\NuGet\\NuGet.Config",

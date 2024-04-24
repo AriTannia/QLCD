@@ -1,0 +1,375 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Section start -->
+
+<div class="section">
+    <h2>Hệ thống quản lý dạng bảng</h2>
+
+    <div class="section_input">
+
+        <div class="section_input_row">
+            <p>Mã định danh cá nhân</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Ngày sinh</p>
+            <input type="date">
+        </div>
+
+        <div class="section_input_row">
+            <p>Giới tính</p>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="section_input">
+
+        <div class="section_input_row">
+            <p>Số CMND/CCCD</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Dân Tộc</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Tôn giáo</p>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="section_input">
+
+        <div class="section_input_row">
+            <p>Quốc tịch</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Tình trạng hôn nhân</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Nhóm máu</p>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="section_input">
+
+        <div class="section_input_row">
+            <p>Nơi đăng ký khai sinh</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Quê quán, nơi thường trú</p>
+            <input type="text">
+        </div>
+
+        <div class="section_input_row">
+            <p>Nơi ở hiện tại</p>
+            <input type="text">
+        </div>
+    </div>
+
+    <div class="section_button">
+        <div class="section_click">
+            <button id="editButton">Chỉnh sửa</button>
+            <button id="addButton">Thêm</button>
+            <button id="deleteButton">Xóa</button>
+        </div>
+    </div>
+
+    <h2>Bảng thông báo</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Mã định danh cá nhân</th>
+                <th>Ngày sinh</th>
+                <th>Giới tính</th>
+                <th>CCCD</th>
+                <th>Dân Tộc</th>
+                <th>Tôn giáo</th>
+                <th>Quốc tịch</th>
+                <th>Tình trạng hôn nhân</th>
+                <th>Nhóm máu</th>
+                <th>Nơi đăng ký khai sinh</th>
+                <th>Quê quán, nơi thường trú</th>
+                <th>Nơi ở hiện tại</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <div class="section_button">
+        <div class="section_click">
+            <button id="sendButton">Nhập</button>
+        </div>
+        <div class="section_click">
+            <button><a asp-area="" asp-controller="Home" asp-action="managers">Managers</a></button>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="section show">
+    <h2>Bảng thông tin công dân</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Mã định danh cá nhân</th>
+                <th>Ngày sinh</th>
+                <th>Giới tính</th>
+                <th>CCCD</th>
+                <th>Dân Tộc</th>
+                <th>Tôn giáo</th>
+                <th>Quốc tịch</th>
+                <th>Tình trạng hôn nhân</th>
+                <th>Nhóm máu</th>
+                <th>Nơi đăng ký khai sinh</th>
+                <th>Quê quán, nơi thường trú</th>
+                <th>Nơi ở hiện tại</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="section_button">
+        <div class="section_click">
+            <button id="confButton">Xác nhận</button>
+        </div>
+        <div class="section_click">
+            <button id="">Quay lại</button>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Section end -->
+<style>
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        align-items: center;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(253, 246, 234);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin-top: 0;
+        height: 80px;
+        display: flex;
+        background-color: rgb(121, 11, 11);
+        justify-content: space-between;
+        /* khoảng cách giữa các thẻ */
+        align-items: center;
+        /* Phần này căn giữa các phần từ ở giữa dòng */
+        padding: 0 50px;
+        margin-bottom: 30px;
+    }
+
+        .header .header-contanier_1 {
+            gap: 10px;
+            width: 340px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header .header-text_1 p {
+            color: rgb(184, 184, 68);
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .header .header-text_2 p {
+            color: white;
+            font-weight: 400;
+        }
+
+        .header .header-contanier_2 {
+            width: 265px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            gap: 0px 60px;
+        }
+
+    .header-text_2 {
+        margin-top: 5px;
+    }
+
+    .midfine p {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.8) !important;
+    }
+
+    .header img {
+        height: 64px;
+    }
+
+    .hone img {
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    /* Section start */
+
+    .section {
+        background-color: white;
+        width: 1110px;
+        margin-top: 110px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .section_input {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+        .section_input .section_input_row {
+            width: 240px;
+        }
+
+            .section_input .section_input_row select {
+                width: 240px;
+            }
+
+            .section_input .section_input_row input {
+                width: 100%;
+                height: 24px;
+                margin-top: 5px;
+                padding: 0 2px;
+            }
+
+    .s_one .section_input_row {
+        margin: 0 auto;
+    }
+
+    .section_button .section_click {
+        margin: 36px auto;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+    }
+
+        .section_button .section_click button {
+            background-color: brown;
+            color: black;
+            height: 30px;
+            width: 115px;
+            font-size: 20px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+            .section_button .section_click button:hover {
+                background-color: rgb(191, 57, 57);
+            }
+
+    table {
+        margin-top: 10px;
+        width: 100%;
+        border: 0px;
+    }
+
+        table thead {
+            background-color: brown;
+            color: white;
+        }
+
+        table tbody {
+            font-size: 18px;
+            font-weight: 500;
+            color: black;
+            text-align: center;
+        }
+
+
+    .da_phe_duyet {
+        border: 2px solid green; /* Viền xanh lá */
+        background-color: green;
+        select border-radius: 16px;
+        cursor: pointer;
+    }
+
+    /* Lớp CSS cho trạng thái chưa đạt */
+    .chua_dat {
+        border: 2px solid red; /* Viền đỏ */
+        background-color: red;
+        border-radius: 16px;
+        cursor: pointer;
+    }
+
+    /* Section end */
+
+</style>

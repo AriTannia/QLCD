@@ -31,6 +31,12 @@ namespace WebApplication2.Controllers
 		}
 
         [HttpGet]
+        public IActionResult Manager()
+        {
+            return View();
+        }
+
+        [HttpGet]
         public IActionResult DangNhap()
         {
             return View();
@@ -51,7 +57,7 @@ namespace WebApplication2.Controllers
                 {
                     HttpContext.Session.SetString("LoggedInUser", khachHang.MaKh);
                     TempData["SuccessMessage"] = "Đăng nhập thành công!";
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Manager", "Home");
                 }
                 else
                 {
